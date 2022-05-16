@@ -1,11 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" 
-validUntil="2032-05-11T15:44:09.897Z"
-xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
-xmlns:spid="https://spid.gov.it/saml-extensions"
->
-<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_1ce2e72ad8bf079165b65fe4bb1c748807f88bce" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_1ce2e72ad8bf079165b65fe4bb1c748807f88bce"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>frct/y6FIne7PJvQs5YiTCNT+4R9OHq6P6d6S6/FGZE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cTXh9/z5N8qcul8Yv6TWVFEN28+tyLaY0YHRReFUBbL0mEH8UaI3NCqf6FBGAGebxlhfEOGbSFDc
+1v+C32Z1mLTPWckGoSrpHoRblVh1JVN8RPVm7O/FdAb7twSPqM7MMXbI/vLgl4p/7L8vBRpjfG+f
+2kBFxwvTXpcI6YcM4IsYarhcUfhadmeyGYgoyAvJWY06rax53Mg03pXcPy9fnE2LwVDHPD4OiOFJ
+MB/lPgFTL8c83yhZLK2zMG1BH5dcFMuUGKm6OuBvKmqAbt04DAOJ9xJUulWy5dwC2ni8ihl4KvSg
+x8N5uWDwiSiV5wAtM1lCpufaP642k08ubWZd5Q==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
+4fTw2PT0VerPeBEyHF3zYVI7EhrpU2kE3jUC7sRXijuxzKCYmrGJ11cDTW9hyk/Lz4KPcdmEJNm0
+WAwoYt0Qy5uldFfaiROCdnmjHl83UEA5f2E6EwkYLlucNA+IWtMaHNFlJen1w3YW+eqT7PJoUs0D
+1LmMGFAf/HAIvSAiQQhzelEYWGU0h/qR3o2EzQ/Tty8zEo+zNgHhqX+bZ7ZW08CRDevF05dR6qMO
++rPj24mw8cm3M/KXvSZ9niw5QSNaIIbh6+4a0Q==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509Certificate>MIIErDCCA5SgAwIBAgIOAYCyZEZRAAAAAH4DuX4wDQYJKoZIhvcNAQELBQAwgZAxKDAmBgNVBAMM
+H1NlbGZTaWduZWRDZXJ0XzExTWF5MjAyMl8wOTEyMzcxGDAWBgNVBAsMDzAwRDNOMDAwMDAwSG9F
+TTEXMBUGA1UECgwOU2FsZXNmb3JjZS5jb20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNV
+BAgMAkNBMQwwCgYDVQQGEwNVU0EwHhcNMjIwNTExMDkxMjM3WhcNMjMwNTExMDAwMDAwWjCBkDEo
+MCYGA1UEAwwfU2VsZlNpZ25lZENlcnRfMTFNYXkyMDIyXzA5MTIzNzEYMBYGA1UECwwPMDBEM04w
+MDAwMDBIb0VNMRcwFQYDVQQKDA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNj
+bzELMAkGA1UECAwCQ0ExDDAKBgNVBAYTA1VTQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAJh6v7dm8ZaAEuEhvKuLIuv+xYSNvux+VpqFZ9ySVpZExvJhSGOO6zlYOYK1S1GOku6gALFT
+kYptXOH08Nj09FXqz3gRMhxd82FSOxIa6VNpBN41Au7EV4o7scygmJqxiddXA01vYcpPy8+Cj3HZ
+hCTZtFgMKGLdEMubpXRX2okTgnZ5ox5fN1BAOX9hOhMJGC5bnDQPiFrTGhzRZSXp9cN2Fvnqk+zy
+aFLNA9S5jBhQH/xwCL0gIkEIc3pRGFhlNIf6kd6NhM0P07cvMxKPszYB4al/m2e2VtPAkQ3rxdOX
+UeqjDvqz49uJsPHJtzPyl70mfZ4sOUEjWiCG4evuGtECAwEAAaOCAQAwgf0wHQYDVR0OBBYEFC7o
+j7WGDWFzhrTIcgaq5+TB/GYbMA8GA1UdEwEB/wQFMAMBAf8wgcoGA1UdIwSBwjCBv4AULuiPtYYN
+YXOGtMhyBqrn5MH8ZhuhgZakgZMwgZAxKDAmBgNVBAMMH1NlbGZTaWduZWRDZXJ0XzExTWF5MjAy
+Ml8wOTEyMzcxGDAWBgNVBAsMDzAwRDNOMDAwMDAwSG9FTTEXMBUGA1UECgwOU2FsZXNmb3JjZS5j
+b20xFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xCzAJBgNVBAgMAkNBMQwwCgYDVQQGEwNVU0GCDgGA
+smRGUQAAAAB+A7l+MA0GCSqGSIb3DQEBCwUAA4IBAQCEazkTI5LFtkENtSc/Y/WOKQpz24fZLn1J
+DpidYntBlc6NOuW6C3XZLaVi31diJa7lEwptzSSfvDEE/D/Zbr/Geg25tP+wDtRHnA/G1TskVy0F
+Mv7wnGV8fBthXdMFUJi4CY59UmClmkXpyBhyEn7ipU4pqCPDDJQkUrxbL1EXq8CzESbbTk49W09k
+rDHA/7btRhSErF3OFR7XYlT2Lx7DEuBxE3uQ4WcXDMMICauc0yfBNfYqF/TfEPFD9wIm1ZuPd3kz
+J8LKZ3sX/C1m2//9yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hC
+SG7q</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:KeyDescriptor use="signing">
          <ds:KeyInfo>
             <ds:X509Data>
@@ -38,15 +61,15 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
          </ds:KeyInfo>
       </md:KeyDescriptor>
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org--dev1.my.salesforce.com" index="0" isDefault="true"/>
-      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev1-sportello-tecnico-dev.cs128.force.com/login" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org--dev1.my.salesforce.com" index="0" isDefault="true" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev1-sportello-tecnico-dev.cs128.force.com/login" index="1" />
       <md:AttributeConsumingService index="0" isDefault="true">
-         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Salesforce.com</md:ServiceName>
-         <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber" isRequired="true" />
       </md:AttributeConsumingService>
       <md:AttributeConsumingService index="1" isDefault="true">
-         <md:ServiceName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="it">Salesforce.com</md:ServiceName>
-         <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+         <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Salesforce.com</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber" isRequired="true" />
       </md:AttributeConsumingService>
    </md:SPSSODescriptor>
    <md:Organization>
