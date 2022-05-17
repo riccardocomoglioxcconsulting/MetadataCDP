@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_325488b61c4aa92608a578f477ba117ca481300f" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
-   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_325488b61c4aa92608a578f477ba117ca481300f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>QijyjR2pir1T71b+Yat+JM7KJ3z+o+R5KD8C6cFhe1E=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>RKHi74l0T7y5WtofIGZNw+LVFUHiikBL51O9VBW58M3INkDvK+zUHs/RBrEV/HXAprNj4SqukNxR
-Ivfv5CjNysaRGmz5zTwHyjZZ1UPsUxmciAuBV+X70IGA+vtfCnXK62ijS/kr4jN13oRk59hpikWH
-InbYhK0wC0jvwKHGfaWWqoGfO8BL5sxznYzJTZ50SspiAe2vdlYcGFpOx6k9YiEx8YAAEQRVr6BA
-XHm3JNNcW7u87gXfo16C7nCoeAG3Uosh8wqlUVNd+y9nDJWzluhtkPf71lsiCitg7LxfrX1vU7rZ
-DIWVeXWj/o4w808JpBGldkagUXXWMNaGy2CTow==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_3749456873927518122a4ca8b9ed314f004a14c3" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_3749456873927518122a4ca8b9ed314f004a14c3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>kXJ9G91+j5aRvOmVU2+nshV/zSj2M1C6dg+CVmzdvPY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>dYoqe+xw3ASoJp9Vd66B43E9OON1PviL0QTzs4V9VXxKnoPRqbtWNmiBIuiJWFv7nNWaUwgyoOHF
+IVVCUMQcWXyBy+J95+PsYIFOSKvRtFOxyhzyB/MvX/80a+qtiOVDyaADkKcOFf7Ig+Lj9nT9qiW0
+BvIf2aLpvdOMC/dc2OCB+MUTBM70V+qAJ7E99MVHpeRVBH4d9snMLEtv0IcPiYd3fY5QEciwKCQY
+Rw0oLIwCknyP4NPJceCZxKsiJqjl6SGB4Ya40TMahJcRh2Ffs8VT9+YjP6alp/vmXOdIElj1XNra
+hsmY83p32RYnbB5bBFIKmJvi5ItJ6bbFiixTUw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
 4fTw2PT0VerPeBEyHF3zYVI7EhrpU2kE3jUC7sRXijuxzKCYmrGJ11cDTW9hyk/Lz4KPcdmEJNm0
 WAwoYt0Qy5uldFfaiROCdnmjHl83UEA5f2E6EwkYLlucNA+IWtMaHNFlJen1w3YW+eqT7PJoUs0D
 1LmMGFAf/HAIvSAiQQhzelEYWGU0h/qR3o2EzQ/Tty8zEo+zNgHhqX+bZ7ZW08CRDevF05dR6qMO
@@ -60,6 +60,8 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
             </ds:X509Data>
          </ds:KeyInfo>
       </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org--dev1.my.salesforce.com/services/auth/sp/saml2/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cdp-pnrr-org--dev1.my.salesforce.com/services/auth/sp/saml2/logout" />
       <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org--dev1.my.salesforce.com" index="0" isDefault="true" />
       <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev1-sportello-tecnico-dev.cs128.force.com/login" index="1" />
@@ -83,8 +85,7 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
    </md:Organization>
    <md:ContactPerson contactType="other">
       <md:Extensions>
-         <spid:Public />
-		 <spid:IPACode>PA:IT-PCM_AA1D3A2</spid:IPACode>
+         <spid:Private />
       </md:Extensions>
       <md:EmailAddress>itcrowd@teamdigitale.governo.it</md:EmailAddress>
    </md:ContactPerson>
