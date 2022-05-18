@@ -83,7 +83,7 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
       <md:OrganizationDisplayName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Cassa Depositi e Prestiti S.p.A</md:OrganizationDisplayName>
       <md:OrganizationURL xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">https://www.cdp.it</md:OrganizationURL>
    </md:Organization>
-   <md:ContactPerson contactType="other">
+   <md:ContactPerson contactType="billing">
       <md:Extensions>
          <spid:Private />
       </md:Extensions>
