@@ -80,32 +80,15 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
          <md:RequestedAttribute Name="email" />
       </md:AttributeConsumingService>
    </md:SPSSODescriptor>
-   <md:ContactPerson contactType="Billing">
-      <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
-   <fpa:CessionarioCommittente>
-       <fpa:DatiAnagrafici>
-           <fpa:IdFiscaleIVA>
-               <fpa:IdPaese>IT</fpa:IdPaese>
-               <fpa:IdCodice>02468135791</fpa:IdCodice>
-           </fpa:IdFiscaleIVA>
-           <fpa:Anagrafica>
-           <fpa:Denominazione>
-                   Destinatario_Fatturazione
-           </fpa:Denominazione> 
-           </fpa:Anagrafica>
-       </fpa:DatiAnagrafici>
-       <fpa:Sede>
-          <fpa:Indirizzo>via [...]</fpa:Indirizzo>
-          <fpa:NumeroCivico>99</fpa:NumeroCivico>
-          <fpa:CAP>12345</fpa:CAP>
-          <fpa:Comune>nome_citta</fpa:Comune>
-          <fpa:Provincia>XY</fpa:Provincia>
-           <fpa:Nazione>IT</fpa:Nazione>
-       </fpa:Sede>
-   </fpa:CessionarioCommittente>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Cassa Depositi e Prestiti S.p.A</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Cassa Depositi e Prestiti S.p.A</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">https://www.cdp.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="billing">
+      <md:Extensions>
+         <spid:Private />
 </md:Extensions>
-<md:Company>Destinatario_Fatturazione</md:Company>
-<md:EmailAddress>email@fatturazione.it</md:EmailAddress>
-<md:TelephoneNumber>telefono_fatture</md:TelephoneNumber>
+      <md:EmailAddress>itcrowd@teamdigitale.governo.it</md:EmailAddress>
 </md:ContactPerson>
 </md:EntityDescriptor>
