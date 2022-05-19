@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_c4713b08db24866ab5e395efe3a1c849724557ee" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
-   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_c4713b08db24866ab5e395efe3a1c849724557ee"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>n6kWdfRlpP4fZPTdA4+zLcxslZYjyXSRCZUGN7aGNKs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>egmEkcopxOqaIVlaz2Jcn0NHK+G9IXsmdgTc8W0wZzzRaH78uJpVaxCmMpj4PsHXMt6beM9hLLIE
-2mE2pHg7MfRE6CEXw2ahnZFgHxE0PRrBDHr5JNYDBjfX/UpxnGoJMD5i7S/AyS15cL8whhn0l8Nr
-Jmk3fH+NdRHyruDR0OkW2goLbnxdrbyyUCtQHs9PUrVmA31Yf028yzPzEbgO3fwlVAfO83YqJF3P
-2PB302+cAoAvavN7pbH1obWefbKeKSNKbV7n1bIHCfGlqSAvqeyOBmzYw40nVPtZh1H9TA72AM9X
-PTOvL2qwOLwvmfl+OKpud8VKX6DA0qoRTx3EwA==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_02f8b84d8e75c8002aa4afdb984ffe0292e4e40b" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_02f8b84d8e75c8002aa4afdb984ffe0292e4e40b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>OeH+OrFz4gKUPsg+QcfzTEvlX4wmTSoo35TYrG+GLfw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>gxFsjpeUG9tkUmWZueofud1T9quRlEHaNM9qjfcFGaMfI4wty1ppyZacJNCymnyw8bOxpKHOa/Om
+nl4wblGk+sZOdvg6VvUnDEMGniYoEgH8+3LxxJD4G+Qj+tR0pZFnnd4OMX2Fbgm7u0X/IljILmxI
+sELcGoOjMT8H9iFEUhH8hGHEALGW4wANrHAnr3eoFsIT00ixMF92nGNckuJeANkGZlgHhtFrdo+Z
+T5crNCuezktnSC9x697r7Q61+4QPM8L7/UPRnIORvlIBED0lA0MzarJk9FpVr2eObM2hnFT27x9x
+tbxQgJsCl4PhpsVuL7zNl79hZLzH5J/GFuYHMw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
 4fTw2PT0VerPeBEyHF3zYVI7EhrpU2kE3jUC7sRXijuxzKCYmrGJ11cDTW9hyk/Lz4KPcdmEJNm0
 WAwoYt0Qy5uldFfaiROCdnmjHl83UEA5f2E6EwkYLlucNA+IWtMaHNFlJen1w3YW+eqT7PJoUs0D
 1LmMGFAf/HAIvSAiQQhzelEYWGU0h/qR3o2EzQ/Tty8zEo+zNgHhqX+bZ7ZW08CRDevF05dR6qMO
@@ -85,6 +85,22 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
       <md:OrganizationDisplayName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Cassa Depositi e Prestiti S.p.A</md:OrganizationDisplayName>
       <md:OrganizationURL xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">https://www.cdp.it</md:OrganizationURL>
    </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+          <spid:VATNumber>IT12345678901</spid:VATNumber>
+          <spid:FiscalCode>XYZABCAAMGGJ000W</spid:FiscalCode>
+          <spid:Private />
+      </md:Extensions>
+      <md:EmailAddress>spid@organizzazione.com</md:EmailAddress>
+      <md:TelephoneNumber>+390123456789</md:TelephoneNumber>
+   </md:ContactPerson>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:Public />
+		 <spid:IPACode>PA:IT-PCM_AA1D3A2</spid:IPACode>
+      </md:Extensions>
+      <md:EmailAddress>itcrowd@teamdigitale.governo.it</md:EmailAddress>
+   </md:ContactPerson>
    <md:ContactPerson contactType="billing">
       <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
       <fpa:CessionarioCommittente>
@@ -103,8 +119,8 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
       <fpa:Indirizzo>via [...]</fpa:Indirizzo>
       <fpa:NumeroCivico>99</fpa:NumeroCivico>
       <fpa:CAP>12345</fpa:CAP>
-      <fpa:Comune>nome_citta</fpa:Comune>
-      <fpa:Provincia>XY</fpa:Provincia>
+      <fpa:Comune>Roma</fpa:Comune>
+      <fpa:Provincia>Roma</fpa:Provincia>
       <fpa:Nazione>IT</fpa:Nazione>
       </fpa:Sede>
       </fpa:CessionarioCommittente>
@@ -112,5 +128,5 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
       <md:Company>Destinatario_Fatturazione</md:Company>
       <md:EmailAddress>email@fatturazione.it</md:EmailAddress>
       <md:TelephoneNumber>telefono_fatture</md:TelephoneNumber>
-   </md:ContactPerson>
+      </md:ContactPerson>
 </md:EntityDescriptor>
