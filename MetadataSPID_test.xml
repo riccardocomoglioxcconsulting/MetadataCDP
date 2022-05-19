@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_02f8b84d8e75c8002aa4afdb984ffe0292e4e40b" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
-   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_02f8b84d8e75c8002aa4afdb984ffe0292e4e40b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>OeH+OrFz4gKUPsg+QcfzTEvlX4wmTSoo35TYrG+GLfw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>gxFsjpeUG9tkUmWZueofud1T9quRlEHaNM9qjfcFGaMfI4wty1ppyZacJNCymnyw8bOxpKHOa/Om
-nl4wblGk+sZOdvg6VvUnDEMGniYoEgH8+3LxxJD4G+Qj+tR0pZFnnd4OMX2Fbgm7u0X/IljILmxI
-sELcGoOjMT8H9iFEUhH8hGHEALGW4wANrHAnr3eoFsIT00ixMF92nGNckuJeANkGZlgHhtFrdo+Z
-T5crNCuezktnSC9x697r7Q61+4QPM8L7/UPRnIORvlIBED0lA0MzarJk9FpVr2eObM2hnFT27x9x
-tbxQgJsCl4PhpsVuL7zNl79hZLzH5J/GFuYHMw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org--dev1.my.salesforce.com" validUntil="2032-05-16T10:02:30.850Z" ID="_71087cc19eee92f8591725b9c8c957823714a2ad" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_71087cc19eee92f8591725b9c8c957823714a2ad"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>eysuLb54t6fquiV1aRfn6Tbp4E7EvDdNVBzg6mJC+Ek=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Dk7ZJT2jzhDilqpGAYeO1oY1o1EMAzQiMAlk2Q8lKA/ZuMrrngyabWGRPNVs1LrcI1wsSx684+Lv
+/PlP84Mjp7JlWp9uPoKDEhrf6+3swoqp5wUVKY1If19x9p8H7nXrp9D32/UxOs4K13VZ2CkB5Ju4
+Grj4szImgEaQzQG3+VoMoPaSknLHpzTIE4KaT0C41bwWgPuJ6dkcrG7e2quSIugV+7WRJ+KT6yjB
+KSHVu+VAtm156UA83J7NwhroqyGCNxeJ6Jt65b+ISWxlmFaQxIX9pLRZyTqZVqXrprPW4fmK3QUv
+ykN+prJnKTPkCdU7VNR4P7uQ0EhAKcFjcJRdCA==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>mHq/t2bxloAS4SG8q4si6/7FhI2+7H5WmoVn3JJWlkTG8mFIY47rOVg5grVLUY6S7qAAsVORim1c
 4fTw2PT0VerPeBEyHF3zYVI7EhrpU2kE3jUC7sRXijuxzKCYmrGJ11cDTW9hyk/Lz4KPcdmEJNm0
 WAwoYt0Qy5uldFfaiROCdnmjHl83UEA5f2E6EwkYLlucNA+IWtMaHNFlJen1w3YW+eqT7PJoUs0D
 1LmMGFAf/HAIvSAiQQhzelEYWGU0h/qR3o2EzQ/Tty8zEo+zNgHhqX+bZ7ZW08CRDevF05dR6qMO
@@ -93,13 +93,6 @@ yKblkOnczNsO3Yx6GKyilr/8DgaNtsnM08sPrE5hFZ/kvivCmi5M6UwzU/hCSG7q</ds:X509Certifi
       </md:Extensions>
       <md:EmailAddress>spid@organizzazione.com</md:EmailAddress>
       <md:TelephoneNumber>+390123456789</md:TelephoneNumber>
-   </md:ContactPerson>
-   <md:ContactPerson contactType="other">
-      <md:Extensions>
-         <spid:Public />
-		 <spid:IPACode>PA:IT-PCM_AA1D3A2</spid:IPACode>
-      </md:Extensions>
-      <md:EmailAddress>itcrowd@teamdigitale.governo.it</md:EmailAddress>
    </md:ContactPerson>
    <md:ContactPerson contactType="billing">
       <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
