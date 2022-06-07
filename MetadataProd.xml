@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org.my.salesforce.com" validUntil="2032-06-06T13:28:21.155Z" ID="_983b4004cec847303865c4e6aeff3b3ac1cbd923" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
-<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_983b4004cec847303865c4e6aeff3b3ac1cbd923"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>634gpe8xWP91Av5UPQrsr4TruNisPZ3JBPhWs8XtOxw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>AT5aomwV6qOjBpw0Lk9Iv+QaRrNPROo5+ET/p9chn2p1KoCv1i9yRYYMOoII8k4aVwXV3KL8L5CM
-jvG/U4GTBe8IgyrFMDMtn/XUiQkh3tHpC4UVT3QCqAXdQx5p6vzFfPrPa23QOUegW9TaoffCQUWk
-4QXFOOKYONRGkMc9yA5BNdRc18pKqALUCErucM4R/WwjMwKZXBLxxXmgUfa+rXabW8pkFIwzW/sh
-9SUA63OfYtaahhk/duOtayJDRjTzuozuYRztry7wwnciYdoSMsR46pw29J8UDX0m5gpwKCZtACAA
-UQeJgt8pgoLGOrgiLd3xxih8TjN78llLL8Z63A==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>zkQTTrmn4rdelzm+9XvQ75xOZWG1AggiM8JiRjAa8rxL6WLMAEHC9gZcJlToEVfwDYf1ZmzdYvbz
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://cdp-pnrr-org.my.salesforce.com" validUntil="2032-06-06T13:28:21.155Z" ID="_1b76cc81aa510fc1a205fcc4fabf860a41ff6eb4" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+<ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#_1b76cc81aa510fc1a205fcc4fabf860a41ff6eb4"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>fMEp3CrP02byhX1JLuzIqAjQ4cefK1tCeMQeUNDN/U4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>GzodnOXi+2Bs9cssX0wN7jaQK2nVPmbidOzhNqFWjDnSVQiXP2z0VQiBU+TJkkghK1uIP83wYzPc
+pjQVGQOqGqJgpeOLQp8UFCdhLzfY6PZrzZfx8KB3opyj7gASog99BaItImqjOaC+VP4pNA+EMhbS
+3imTWeQ836dNXYUadENA7OPgGOFNnbCcw+C4tRvTlLLHv6xvTccolFy9z0VSuDAlHXhaODW0ouR6
+WnqFEKo/bz63hgmZ9QUxFdiJtgt+959lHjIdbncoBjYQf23R9vBMZQh3cBig3UlSVKiBcJkCqWvJ
+0wh1Y0Z1BynVWW6ekO9/Ulxp+Ztb1ahdRwn9Ng==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>zkQTTrmn4rdelzm+9XvQ75xOZWG1AggiM8JiRjAa8rxL6WLMAEHC9gZcJlToEVfwDYf1ZmzdYvbz
 Gf/N07n43v6I4RstgHrpY146UjauIksmbCAS44al/2kmOXnJN7mfLlNXI8LTMQicEcWanBYwk9MS
 JgBJKzicqFgGHUBWqr/XPfWjkd59FtHnY52Ab+jSZdyg7LzRlxYacsuUnkvGFvsROvDYO4MYZKGm
 y+0IIDAaKoqVLlhwfjrVVemp/+q1aT6nizGAGSLyGNCERorBC4v7yMLf+7g7ePd/Qh8vsVRrbogg
@@ -52,8 +52,8 @@ Nk/F32tBRKLIJ1pjx4rrPRihGGyQAvIhJnJs6CTkj3CdpJ3A4s2gl4Ocit8/TQjp1azmVQQKy1e1
 </md:KeyDescriptor>
 <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org.my.salesforce.com/services/auth/sp/saml2/logout" />
 <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cdp-pnrr-org.my.salesforce.com/services/auth/sp/saml2/logout" />
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout" />
-<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="http://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout" />
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout" />
+<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout" />
 <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
 <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org.my.salesforce.com" index="0" isDefault="true" />
 <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotecnico.capacityitaly.it/login" index="1" />
@@ -87,7 +87,7 @@ Nk/F32tBRKLIJ1pjx4rrPRihGGyQAvIhJnJs6CTkj3CdpJ3A4s2gl4Ocit8/TQjp1azmVQQKy1e1
 </md:Organization>
 <md:ContactPerson contactType="other">
 <md:Extensions>
-<spid:VATNumber>07756511007</spid:VATNumber>
+<spid:FiscalCode>80199230584</spid:FiscalCode>
 <spid:Private />
 </md:Extensions>
 <md:EmailAddress>cdpspa@pec.cdp.it</md:EmailAddress>
