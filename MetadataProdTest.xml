@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_bb6cb62b-c63a-4ee4-9ac2-c71883a166c0" entityID="https://www.cdp.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_bb6cb62b-c63a-4ee4-9ac2-c71883a166c0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>HXZPfYt4YCTlYAxr95TCuS+zssaKfAGv2BnlQwNlTp4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+KoUpx+hl6pXtyIyjcefjfqEPJ7JpnSprFGaJ1jHn+o7rHhyiUTucnLBcp7KQCy+c39KcH/SkJsrQ
+VN/l02s1d66SmfHYRAsrjqiBL6zoicRfMEbtCiGx6plxh7rQmejiwbP1isU1QbNvjfw+LbVAdj0h
+EDDOy+NYYbMxb6Zs1phN1E661svAXBwlCZoOw9olga0EfUkvABogGfEeyA+XXW9W0027fHA9NiSb
+mKkZNFG3vvm8Cc1jGeJEg/6Ydlfn4NbVi8//zxlcRsqs14aGYR5V0+Mqdwhc6FLUJ42dcFePWbjT
+ewn6QY/tGqqvKsXlbgUtUYxWktpPb+lJLuWAKA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ssqotStxyWTSQTGADt+3uy/J3uCS0FMFKmFQ5SQUUSDqxZwbO4obUC59Bh4i7Hgzafy8z4CQRuIj
+NGiPnTKJqgpwYPIElbCt5owNyOLNhYZM+mDynMblzlIE98U5wuiPeFreY7EL6IQODZ7hASzvj2SM
+L/8w5wztuYysa194ZGt0g76OMxwCtsK2VFo8nJ93Vl3z8sJ2aQ5hIzLVIqVLjYO4oT60mTwn6aOn
+KlqpepdyhuV41aa67p59YY8K9WqYHS+6FNbTVEVhaXyDc+lLIRQ0v0N1VMcSGmFClYLIygvxavBd
+WznOVOrtNouBeHQiPzG3+pXyEe8QBy1+Um92cQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDpTCCAo0CFCqd6OQCNoDyoGWatzmkQAsmszSfMA0GCSqGSIb3DQEBCwUAMIGOMQwwCgYDVQQD
+DANDRFAxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRowGAYDVQRhDBFWQVRJVC0wNzc1NjUx
+MTAwNzEpMCcGA1UECgwgQ2Fzc2EgRGVwb3NpdGkgZSBQcmVzdGl0aSBTLnAuQS4xGzAZBgNVBFMM
+Emh0dHBzOi8vd3d3LmNkcC5pdDAeFw0yMjAzMjgxNTA2NTFaFw0zMjAzMjUxNTA2NTFaMIGOMQww
+CgYDVQQDDANDRFAxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRowGAYDVQRhDBFWQVRJVC0w
+Nzc1NjUxMTAwNzEpMCcGA1UECgwgQ2Fzc2EgRGVwb3NpdGkgZSBQcmVzdGl0aSBTLnAuQS4xGzAZ
+BgNVBFMMEmh0dHBzOi8vd3d3LmNkcC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+ALLKqLUrcclk0kExgA7ft7svyd7gktBTBSphUOUkFFEg6sWcGzuKG1AufQYeIux4M2n8vM+AkEbi
+IzRoj50yiaoKcGDyBJWwreaMDcjizYWGTPpg8pzG5c5SBPfFOcLoj3ha3mOxC+iEDg2e4QEs749k
+jC//MOcM7bmMrGtfeGRrdIO+jjMcArbCtlRaPJyfd1Zd8/LCdmkOYSMy1SKlS42DuKE+tJk8J+mj
+pypaqXqXcobleNWmuu6efWGPCvVqmB0vuhTW01RFYWl8g3PpSyEUNL9DdVTHEhphQpWCyMoL8Wrw
+XVs5zlTq7TaLgXh0Ij8xt/qV8hHvEActflJvdnECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAihZF
+ZgasPNWuGVmov2yonJEkh8xofoOsVMJn+nQJr7o/WaA5WU5a841wE9bde/0cE7KR3ewI1O0qlNxn
+W9YvR5NUVtL5m5aL/CM947c6uPOZBYt6fpY0JkWcTGRAP4AH3qcCOzNWrs9xFgtLQ+thRZ2wjBQa
+9Oh+D6nmfoTQaC3/pdJkWDui72zmxVGFXt6/UIeph3/YO/shJgjcpycfNQ6D4DSswQpNN66ZV3gv
+DOys4aITMP3j9eUyAFsAQdN5PWpvhtCOk2WpMkKWavomgEdjpwi6iv9uX4qca9wHX6trcuBbZnGw
+1CDx7bUhpkRmZ3di4Ispdpmd87aZZ3MTww==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIDpTCCAo0CFCqd6OQCNoDyoGWatzmkQAsmszSfMA0GCSqGSIb3DQEBCwUAMIGOMQwwCgYDVQQDDANDRFAxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRowGAYDVQRhDBFWQVRJVC0wNzc1NjUxMTAwNzEpMCcGA1UECgwgQ2Fzc2EgRGVwb3NpdGkgZSBQcmVzdGl0aSBTLnAuQS4xGzAZBgNVBFMMEmh0dHBzOi8vd3d3LmNkcC5pdDAeFw0yMjAzMjgxNTA2NTFaFw0zMjAzMjUxNTA2NTFaMIGOMQwwCgYDVQQDDANDRFAxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRowGAYDVQRhDBFWQVRJVC0wNzc1NjUxMTAwNzEpMCcGA1UECgwgQ2Fzc2EgRGVwb3NpdGkgZSBQcmVzdGl0aSBTLnAuQS4xGzAZBgNVBFMMEmh0dHBzOi8vd3d3LmNkcC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALLKqLUrcclk0kExgA7ft7svyd7gktBTBSphUOUkFFEg6sWcGzuKG1AufQYeIux4M2n8vM+AkEbiIzRoj50yiaoKcGDyBJWwreaMDcjizYWGTPpg8pzG5c5SBPfFOcLoj3ha3mOxC+iEDg2e4QEs749kjC//MOcM7bmMrGtfeGRrdIO+jjMcArbCtlRaPJyfd1Zd8/LCdmkOYSMy1SKlS42DuKE+tJk8J+mjpypaqXqXcobleNWmuu6efWGPCvVqmB0vuhTW01RFYWl8g3PpSyEUNL9DdVTHEhphQpWCyMoL8WrwXVs5zlTq7TaLgXh0Ij8xt/qV8hHvEActflJvdnECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAihZFZgasPNWuGVmov2yonJEkh8xofoOsVMJn+nQJr7o/WaA5WU5a841wE9bde/0cE7KR3ewI1O0qlNxnW9YvR5NUVtL5m5aL/CM947c6uPOZBYt6fpY0JkWcTGRAP4AH3qcCOzNWrs9xFgtLQ+thRZ2wjBQa9Oh+D6nmfoTQaC3/pdJkWDui72zmxVGFXt6/UIeph3/YO/shJgjcpycfNQ6D4DSswQpNN66ZV3gvDOys4aITMP3j9eUyAFsAQdN5PWpvhtCOk2WpMkKWavomgEdjpwi6iv9uX4qca9wHX6trcuBbZnGw1CDx7bUhpkRmZ3di4Ispdpmd87aZZ3MTww==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </md:KeyDescriptor>
+		
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cdpb2c01.b2clogin.com/cdpb2c01.onmicrosoft.com/B2C_1A_signin_GOV_ID/samlp/sso/logout" ResponseLocation="https://cdpb2c01.b2clogin.com/cdpb2c01.onmicrosoft.com/B2C_1A_signin_GOV_ID/samlp/sso/logout/response"/>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pg.cdp.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pg.cdp.it/proxy/assertionconsumer"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pf.cdp.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pf.cdp.it/proxy/assertionconsumer"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org.my.salesforce.com/services/auth/sp/saml2/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cdp-pnrr-org.my.salesforce.com/services/auth/sp/saml2/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sportellotecnico.capacityitaly.it/services/auth/sp/saml2/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdpb2c01.b2clogin.com/cdpb2c01.onmicrosoft.com/B2C_1A_TrustFrameworkBase_GOV_ID/samlp/sso/assertionconsumer" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pg.cdp.it/proxy/assertionconsumer" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid-proxy-pf.cdp.it/proxy/assertionconsumer" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cdp-pnrr-org.my.salesforce.com" index="3"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotecnico.capacityitaly.it/login" index="4"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sportellotecnico.capacityitaly.it/sis_SpidPage" index="5"/>
+        
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Cassa Depositi e Prestiti S.p.A.</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Cassa Depositi e Prestiti S.p.A.</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="companyFiscalNumber"/>   
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace" >Salesforce.com</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace" >Salesforce.com</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5">
+            <md:ServiceName xml:lang="it" xmlns:xml="http://www.w3.org/XML/1998/namespace">Salesforce.com</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber" isRequired="true"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Cassa Depositi e Prestiti S.p.A.</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">CDP</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.cdp.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:VATNumber>IT07756511007</spid:VATNumber>
+            <spid:Private/>
+        </md:Extensions>
+        <md:EmailAddress>supportospid@cdp.it</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>07756511007</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+			           <fpa:Denominazione>Cassa Depositi e Prestiti S.p.A.</fpa:Denominazione> 
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>Via Goito</fpa:Indirizzo>
+                    <fpa:NumeroCivico>4</fpa:NumeroCivico>
+                    <fpa:Comune>Roma</fpa:Comune>
+                    <fpa:Provincia>RM</fpa:Provincia>
+                    <fpa:CAP>00185</fpa:CAP>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:EmailAddress>fatture_fornitori@cdp.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
