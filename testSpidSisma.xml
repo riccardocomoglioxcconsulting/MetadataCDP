@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="https://spid.pcm.it" validUntil="2033-04-24T15:30:15.918Z" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>MIIEkzCCA3ugAwIBAgIOAYfDUnE/AAAAACxvqqswDQYJKoZIhvcNAQELBQAwgYgx
+                  IDAeBgNVBAMMF1hDQ19DZXJ0aWZpY2F0ZTIwMjNTcGlkMRgwFgYDVQQLDA8wMEQw
+                  OTAwMDAwNDRzZ2YxFzAVBgNVBAoMDlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1T
+                  YW4gRnJhbmNpc2NvMQswCQYDVQQIDAJDQTEMMAoGA1UEBhMDVVNBMB4XDTIzMDQy
+                  NzE1MjYxMloXDTI0MDQyNzEyMDAwMFowgYgxIDAeBgNVBAMMF1hDQ19DZXJ0aWZp
+                  Y2F0ZTIwMjNTcGlkMRgwFgYDVQQLDA8wMEQwOTAwMDAwNDRzZ2YxFzAVBgNVBAoM
+                  DlNhbGVzZm9yY2UuY29tMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQswCQYDVQQI
+                  DAJDQTEMMAoGA1UEBhMDVVNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+                  AQEAkZqN8Yj/W+Zov7s0FXvzbUHSauc3+08Cmlee/v1nCjxit+Uy6Py2B3PN+H77
+                  dk0P10kHDk8CChk5ujwOLJM/AigBMxNPXa/vVxaQQr2+YNEBrjEqg1yYM327GgC+
+                  hbqAvlqXulbzEAjpnGvo5DKwtyeUhIrHFSn1Ae1HvIwXsDh/nY9AuBuuwaC30ygM
+                  hq6EoB622RA+gXPpXauQhMoXrjjjLN+9G3RL4aDw8BLcmjKWfIMerXDnvQ7VagpU
+                  s56+0kiA5OCCcFERKntM8YJnuRvhRVwQwDw9+pNE4oTh5AjirYWmSVBruCnUBRSA
+                  UCNwDsEzPRysslg5YpAtp3vjzQIDAQABo4H4MIH1MB0GA1UdDgQWBBTEtIssbbV8
+                  Vp9LKtd5kaaelkUNkzAPBgNVHRMBAf8EBTADAQH/MIHCBgNVHSMEgbowgbeAFMS0
+                  iyxttXxWn0sq13mRpp6WRQ2ToYGOpIGLMIGIMSAwHgYDVQQDDBdYQ0NfQ2VydGlm
+                  aWNhdGUyMDIzU3BpZDEYMBYGA1UECwwPMDBEMDkwMDAwMDQ0c2dmMRcwFQYDVQQK
+                  DA5TYWxlc2ZvcmNlLmNvbTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzELMAkGA1UE
+                  CAwCQ0ExDDAKBgNVBAYTA1VTQYIOAYfDUnE/AAAAACxvqqswDQYJKoZIhvcNAQEL
+                  BQADggEBABJSsVEf/0ag7HKtMEhgfOC1Anr7+1E9PeNB2XAMIwb25K/iHdqwepgj
+                  rrSV/h4DBKKCWrTGS5S2vfy+6R5lRBZO5GY9RZEg18pue9mF4AYJ6ZPCqbeqKAcL
+                  9qiKNkjM8uEkcSP4/S1h/H4xKPn2bme3Dzpmr7B2BRh/poqHbom0iGirr3eaI++L
+                  gteJOEjWw4gdPEOZy+DxaRTNyVLS/jKiQjQ9fa2K4lmHNKbwCoTZfcPQChMUhs7l
+                  g0fl/TKvQ9dLtrF5QFkmY/9WKelPkE3LIdWUJbBEj8vGsPgsLuGCKra1jzb9HjWk
+                  i6lB7olROwXMaZqj+YfqSrpybgwWuRw=</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gedisi.sisma2016.gov.it/services/auth/sp/saml2/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gedisi.sisma2016.gov.it/services/auth/sp/saml2/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sptest.unar.it/sppcm/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.unar.it/sppcm/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidstage.firmereferendum.gov.it/spref/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.firmereferendum.gov.it/spref/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pncs.gov.it/Shibboleth.sso/SLO/POST" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testpncs.gov.it/Shibboleth.sso/SLO/POST" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://elenco-oiv-coll.ecaasdfp.cs1.cloudspc.it/rest/security/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://selezionionline.lincei.it/rest/security/logout" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-be.facilitazione-test.repubblicadigitale.gov.it/spidSaml2/ls/post/" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-be.facilita.repubblicadigitale.gov.it/spidSaml2/ls/post/" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.latuaPA.gov.it/spid/slo" />
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.latuaPA.gov.it/spid/slo" />
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gedisi.sisma2016.gov.it/login" index="0" isDefault="true" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.dfp.gov.it/Saml2/Acs" index="1" />
+      <md:AssertionConsumerService Location="https://sptest.unar.it/sppcm/AssertionConsumerServiceUnar0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="2" />
+      <md:AssertionConsumerService Location="https://sp.unar.it/sppcm/AssertionConsumerServiceUnar1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="3" />
+      <md:AssertionConsumerService Location="https://spidstage.firmereferendum.gov.it/spref/AssertionConsumerService0" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="4" />
+      <md:AssertionConsumerService Location="https://spid.firmereferendum.gov.it/spref/AssertionConsumerService1" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="5" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.pncs.gov.it/Shibboleth.sso/SAML2/POST" index="6" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.testpncs.gov.it/Shibboleth.sso/SAML2/POST" index="7" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://elenco-oiv-coll.ecaasdfp.cs1.cloudspc.it/spid/send-response" index="8" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://elenco-oiv.performance.gov.it/spid/send-response" index="9" />
+      <md:AssertionConsumerService Location="https://sptest.sogei.it/sppcm/AssertionConsumerServiceRD" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="10" />
+      <md:AssertionConsumerService Location="https://sso.repubblicadigitale.gov.it/sppcm/AssertionConsumerServiceRD" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="11" />
+      <md:AssertionConsumerService Location="https://sptest.sogei.it/sppcm/AssertionConsumerServicePUC" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="12" />
+      <md:AssertionConsumerService Location="https://sptest.unar.it/sppcm/AssertionConsumerService8x" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="13" />
+      <md:AssertionConsumerService Location="https://sp.governo.it/sppcm/AssertionConsumerService8x" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="14" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-be.facilitazione-test.repubblicadigitale.gov.it/spidSaml2/acs/post" index="15" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://satosa-be.facilita.repubblicadigitale.gov.it/spidSaml2/acs/post" index="16" />
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.latuaPA.gov.it/spid/acs" index="17" />
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName ns0:lang="it" xmlns:ns0="http://www.w3.org/XML/1998/namespace">GEDISI</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="fiscalNumber" isRequired="true" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="mobilePhone" />
+         <md:RequestedAttribute Name="digitalAddress" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+         <md:RequestedAttribute Name="countyOfBirth" />
+         <md:RequestedAttribute Name="gender" />
+         <md:RequestedAttribute Name="placeOfBirth" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName ns1:lang="it" xmlns:ns1="http://www.w3.org/XML/1998/namespace">ACS</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="spidCode" />
+         <md:RequestedAttribute Name="gender" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+         <md:RequestedAttribute Name="countyOfBirth" />
+         <md:RequestedAttribute Name="idCard" />
+         <md:RequestedAttribute Name="registeredOffice" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="ivaCode" />
+         <md:RequestedAttribute Name="placeOfBirth" />
+         <md:RequestedAttribute Name="digitalAddress" />
+         <md:RequestedAttribute Name="companyName" />
+         <md:RequestedAttribute Name="mobilePhone" />
+         <md:RequestedAttribute Name="address" />
+         <md:RequestedAttribute Name="expirationDate" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName ns2:lang="it" xmlns:ns2="http://www.w3.org/XML/1998/namespace">UNAR</md:ServiceName>
+         <md:RequestedAttribute Name="fiscalNumber" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="3">
+         <md:ServiceName ns3:lang="it" xmlns:ns3="http://www.w3.org/XML/1998/namespace">OIV</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="email" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="4">
+         <md:ServiceName ns4:lang="it" xmlns:ns4="http://www.w3.org/XML/1998/namespace">Repubblica Digitale</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="6">
+         <md:ServiceName ns5:lang="it" xmlns:ns5="http://www.w3.org/XML/1998/namespace">PNCS</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="spidCode" />
+         <md:RequestedAttribute Name="gender" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+         <md:RequestedAttribute Name="countyOfBirth" />
+         <md:RequestedAttribute Name="idCard" />
+         <md:RequestedAttribute Name="registeredOffice" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="ivaCode" />
+         <md:RequestedAttribute Name="placeOfBirth" />
+         <md:RequestedAttribute Name="digitalAddress" />
+         <md:RequestedAttribute Name="companyName" />
+         <md:RequestedAttribute Name="mobilePhone" />
+         <md:RequestedAttribute Name="address" />
+         <md:RequestedAttribute Name="expirationDate" />
+         <md:RequestedAttribute Name="domicileStreetAddress" />
+         <md:RequestedAttribute Name="domicileMunicipality" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="7">
+         <md:ServiceName ns6:lang="it" xmlns:ns6="http://www.w3.org/XML/1998/namespace">PNCS-TEST</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="spidCode" />
+         <md:RequestedAttribute Name="gender" />
+         <md:RequestedAttribute Name="dateOfBirth" />
+         <md:RequestedAttribute Name="countyOfBirth" />
+         <md:RequestedAttribute Name="idCard" />
+         <md:RequestedAttribute Name="registeredOffice" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="ivaCode" />
+         <md:RequestedAttribute Name="placeOfBirth" />
+         <md:RequestedAttribute Name="digitalAddress" />
+         <md:RequestedAttribute Name="companyName" />
+         <md:RequestedAttribute Name="mobilePhone" />
+         <md:RequestedAttribute Name="address" />
+         <md:RequestedAttribute Name="expirationDate" />
+         <md:RequestedAttribute Name="domicileStreetAddress" />
+         <md:RequestedAttribute Name="domicileMunicipality" />
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="8">
+         <md:ServiceName ns7:lang="it" xmlns:ns7="http://www.w3.org/XML/1998/namespace">DFP</md:ServiceName>
+         <md:RequestedAttribute Name="name" />
+         <md:RequestedAttribute Name="fiscalNumber" />
+         <md:RequestedAttribute Name="familyName" />
+         <md:RequestedAttribute Name="email" />
+         <md:RequestedAttribute Name="mobilePhone" />
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName ns8:lang="it" xmlns:ns8="http://www.w3.org/XML/1998/namespace">Presidenza del Consiglio dei Ministri</md:OrganizationName>
+      <md:OrganizationDisplayName ns9:lang="it" xmlns:ns9="http://www.w3.org/XML/1998/namespace">PCM</md:OrganizationDisplayName>
+      <md:OrganizationURL ns10:lang="it" xmlns:ns10="http://www.w3.org/XML/1998/namespace">https://www.governo.it/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other">
+      <md:Extensions>
+         <spid:IPACode>PCM</spid:IPACode>
+         <spid:Public />
+      </md:Extensions>
+      <md:EmailAddress>dss@pec.governo.it</md:EmailAddress>
+   </md:ContactPerson>
+</md:EntityDescriptor>
